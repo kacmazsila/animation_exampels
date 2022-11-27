@@ -2,6 +2,7 @@ import 'package:animation_exampels/animatedBuilder.dart';
 import 'package:flutter/material.dart';
 
 import 'animadeContainer.dart';
+import 'animatedIcon.dart';
 import 'animatedalign.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedContainerWidget(),
+      home: AnimatedIconWidget(),
     );
   }
 }
